@@ -5,7 +5,7 @@ import * as S from "./header.styles"
 const Header = () => (
   <S.SiteHeader>
     <S.Content aria-current>
-      <p>
+      {/* <p> */}
         <S.HomeLink to="/" activeClassName="active">
           Home
         </S.HomeLink>
@@ -18,7 +18,7 @@ const Header = () => (
         <S.NavLink to="/about" activeClassName="active">
           Sobre
         </S.NavLink>
-      </p>
+      {/* </p> */}
     </S.Content>
   </S.SiteHeader>
 )
