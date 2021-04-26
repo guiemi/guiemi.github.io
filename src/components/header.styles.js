@@ -7,14 +7,12 @@ export const SiteHeader = styled.header`
   /* flex-direction: column; */
   align-content: center;
   justify-content: center;
-  border: orange solid 1px;
 `
 
 export const Content = styled.div`
   max-width: 860px;
   padding: 1rem 1.0875rem;
   font-size: 1.2rem;
-  border: green solid 1px;
   display: flex;
   flex-wrap: wrap;
 `
@@ -25,7 +23,6 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   display: inline-block;
   position: relative;
-  border: blue 1px solid;
 
   ::after {
     content: "";
