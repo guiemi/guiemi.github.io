@@ -47,10 +47,16 @@ export const Content = styled.div`
   padding: 0.5rem 0.5rem 0 0.5rem;
   height: 75%;
 
-  h4,
+
+  h4 {
+    margin-bottom: 1.5rem;
+    height: 25%;
+    border: orange solid 1px;
+  }
+
   p {
-    margin-bottom: 0.5rem;
-    height: max-content;
+    border: red dashed 1px;
+    margin-bottom: auto;
   }
 `
 
@@ -58,29 +64,24 @@ export const Stats = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem;
-  height: 25%;
+  padding: auto 0;
+  /* min-height: auto; */
+  border: green solid 1px;
+  margin: 0 0.5rem;
 
   div {
     display: flex;
     flex-direction: row;
-    &:first-child {
-      margin-right: 0.5rem;
-    }
+    align-items: center;
 
-    h4 {
-      margin: 0;
-    }
-
-    .icon {
-      margin: 0;
-      height: auto;
-    }
-
+    .icon,
     span {
-      color: #000;
-      margin-left: 0.5rem;
-      margin: 0.9rem;
+      margin: auto 0.25rem;
+      /* border: green solid 1px; */
     }
+
+    /* span {
+      border: purple dashed 1px;
+    } */
   }
 `

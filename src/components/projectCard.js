@@ -21,14 +21,13 @@ const ProjectCard = ({ reposList, isLoading }) => (
             </S.Content>
             <S.Stats>
               <div>
-                <FontAwesomeIcon className="icon" icon={faCode} size="1x" />
+                <FontAwesomeIcon className="icon" icon={faCode} />
                 <span>{language}</span>
               </div>
               <div>
                 <FontAwesomeIcon
                   className="icon"
                   icon={faStar}
-                  size="1x"
                 />
                 <span>{stargazers_count}</span>
               </div>
